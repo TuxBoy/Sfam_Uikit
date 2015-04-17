@@ -3,6 +3,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv=Content-Type content="text/html; charset=utf-8" />
+	<title>Blog-sfam</title>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/uikit.js"></script>
 	<script type="text/javascript" src="js/slideshow.js"></script>
@@ -13,46 +14,45 @@
 <body>
 <div id="tm-header">
 	<div class="uk-container uk-container-center">
-		<div class="uk-grid uk-grid-width-1-2 uk-hidden-small uk-position-relative">
-			<!-- BLOC BEGIN-->
-			<div class="tm-logo-big">
-				<img src="http://www.blog-sfam.fr/wp-content/themes/sfam_blog/img/sfam-assurance-blog-logo.jpg" width="355" height="105" alt="SFAM Assurances, le blog.">
-			</div>
-			<!-- BLOC END-->
-			<div class="tm-toolbar uk-position-top-right uk-grid uk-grid-width-1-1 uk-hidden-small">
-				<div class="uk-flex">
-					<!-- BLOC BEGIN-->
-					<ul class="tm-toobar-nav uk-subnav uk-subnav-line">
-						<li><a href="http://www.assurances-sfam.fr/">Site officiel SFAM</a></li>
-						<li><a href="http://www.espaceclient-sfam.fr">Le Service client SFAM</a></li>
-					</ul>
-					<form class="uk-search" data-uk-search>
-						<input class="uk-search-field" type="text">
-						<input class="input-search" type="submit" id="submit" value="">
-					</form>
-					<!-- BLOC END-->
-				</div>
-			</div>
-			<!-- BLOC BEGIN-->
-			<nav class="uk-navbar uk-position-bottom-right">
-				<div class="uk-navbar-flip">
-					<ul class="uk-navbar-nav">
-						<li class="uk-parent"><a href=#>accueil</a></li>
-						<li class="uk-parent"><a href=#>a propos de sfam</a></li>
-						<li class="uk-parent"><a href=#>contact</a></li>
-					</ul>
-				</div>
-			</nav>
-			<!-- BLOC END-->
-		</div>
 		<nav class="uk-navbar uk-visible-small">
 			<a href="#tm-offcanvas" class="uk-navbar-toggle" data-uk-offcanvas></a>
 			<div class="tm-logo-small uk-navbar-content uk-navbar-center">
 				<a href="" class="uk-navbar-brand"><img src="img/logo-small.png" alt=""></a>
 			</div>
 		</nav>
+
+		<div class="tm-toolbar uk-grid uk-position-relative uk-hidden-small">
+			<div class="tm-logo-big uk-position-top-left uk-hidden-small">
+				<img src="img/sfam-assurance-blog-logo.jpg" alt="SFAM Assurances, le blog.">
+			</div>
+			<div class="uk-flex uk-position-top-right ">
+				<!-- BLOC BEGIN-->
+				<ul class="tm-toobar-nav uk-subnav uk-subnav-line">
+					<li>Site officiel SFAM</li>
+					<li>Le Service client SFAM</li>
+				</ul>
+				<form class="uk-form uk-margin-remove uk-display-inline-block" data-uk-search>
+					<input class="uk-search-field tm-search-header" type="search" placeholder="Rechercher">
+					<input type="submit" class="tm-search-button" value="">
+				</form>
+				<!-- BLOC END-->
+			</div>
+		</div>
+
+		<nav class="uk-navbar uk-hidden-small">
+			<div class="uk-navbar-flip">
+				<ul class="uk-navbar-nav">
+					<li><a href="#">accueil</a></li>
+					<li><a href="#">a propos de sfam</a></li>
+					<li><a href="#">contact</a></li>
+				</ul>
+
+			</div>
+		</nav>
+
 	</div>
 </div>
+
 
 <!-- Section du slideshow de la page d'accueil-->
 <div id="tm-top-a">
@@ -246,7 +246,7 @@
 								<span class="tm-article-disqus dsq-postid" data-dsqidentifier="893 http://www.blog-sfam.fr/?p=893"></span>
 								<ul class="tm-article-categories uk-subnav uk-subnav-pill uk-align-right">
 									<li class="uk-active">
-										<a href="http://www.blog-sfam.fr/category/astuces-et-conseils/">Astuces et conseils</a>
+										<a href="top-10-smartphones-a-grand-ecran.html" title="Aller lire cet article">Astuces et conseils</a>
 									</li>
 								</ul>
 							</div>
@@ -256,7 +256,7 @@
 							</a>
 
 							<p>1. XPERIA Z ULTRA Avec un écran Full HD de 6,4 pouces, le Sony Xperia Z Ultra est à la fois une mini-tablette haut de gamme et un smartphone. Son poids est de 219 grammes. Utilisant Android 4.2.2 comme système...</p>
-							<a class="uk-button uk-button-arrow" >Lire la suite</a>
+							<a href="top-10-smartphones-a-grand-ecran.html" title="Aller lire cet article" class="uk-button uk-button-arrow" >Lire la suite</a>
 							<div class="hr"></div>
 						</article>
 
@@ -409,16 +409,15 @@
 <div id="tm-offcanvas" class="uk-offcanvas">
 	<div class="uk-offcanvas-bar">
 		<ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
-			<li><a href=#>accueil</a></li>
-			<li><a href=#>a paropos de sfam</a></li>
-			<li><a href=#>contact</a></li>
+			<li><a href=#>Accueil</a></li>
+			<li><a href=#>A paropos de sfam</a></li>
+			<li><a href=#>Contact</a></li>
 			<li><a href=#>Site officiel SFAM</a></li>
 			<li><a href=#>Le Service client SFAM</a></li>
 		</ul>
-		<form class="uk-search" data-uk-search>
-			<input class="uk-search-field" type="search">
-			<input class="input-search" type="submit" id="submit-small" value="">
-
+		<form class="uk-form uk-margin-remove uk-display-inline-block" data-uk-search>
+			<input class="uk-search-field tm-search-header" type="search" placeholder="Rechercher">
+			<input type="submit" class="tm-search-button" value="">
 		</form>
 	</div>
 </div>

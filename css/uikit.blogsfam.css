@@ -8334,42 +8334,6 @@ a {
 a:hover {
   text-decoration: none;
 }
-div.tm-toolbar {
-  margin-left: 0px;
-  padding: 0;
-}
-div.tm-toolbar ul.tm-toobar-nav {
-  line-height: 45px;
-  width: 220px;
-}
-div.tm-toolbar ul.tm-toobar-nav a li {
-  font-size: .9em;
-  color: #000000;
-  line-height: 1.5;
-}
-div.tm-toolbar ul.tm-toobar-nav a:hover li {
-  color: #000000;
-}
-div.tm-toolbar form {
-  height: 45px;
-  float: right;
-  width: 238px;
-}
-div.tm-toolbar form input {
-  margin: 0;
-  padding: 0;
-  border: none;
-}
-div.tm-toolbar form input.uk-search-field {
-  background: #f5f5f5;
-  height: 43px;
-  width: 160px;
-}
-div.tm-toolbar form input.input-search {
-  background: url("../img/picto-search.png") center no-repeat;
-  height: 38px;
-  width: 50px;
-}
 .tm-sidebar .uk-panel {
   margin-top: 0 !important;
   border-top: 1px solid;
@@ -8518,4 +8482,40 @@ div.tm-toolbar form input.input-search {
   .tm-panel-footer {
     height: 120px;
   }
+}
+div.tm-toolbar {
+  margin-left: 0px;
+  padding: 0;
+}
+div.tm-toolbar ul.tm-toobar-nav {
+  line-height: 45px;
+  font-size: 12px;
+  padding-right: 20px;
+}
+div.tm-toolbar ul.tm-toobar-nav a li {
+  color: #000000;
+  line-height: 1.5;
+}
+div.tm-toolbar ul.tm-toobar-nav a:hover li {
+  color: #000000;
+}
+div.tm-toolbar form .tm-search-header {
+  margin: 0;
+  border: none;
+  color: #000;
+  background: #f5f5f5;
+  height: 45px;
+  padding: 0 10px;
+  transition-duration: 0.4s;
+}
+div.tm-toolbar form .tm-search-header:focus {
+  background: #f5f5f5;
+}
+div.tm-toolbar form .tm-search-button {
+  background: #f5f5f5 url(../img/picto-search.png) center no-repeat;
+  width: 50px;
+  height: 45px;
+  cursor: pointer;
+  margin: 0 0 0 -5px;
+  border: 0;
 }

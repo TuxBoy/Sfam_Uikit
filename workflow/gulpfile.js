@@ -1,6 +1,6 @@
 'use strict';
 
-var gulp = require('gulp'),
+var gulp      = require('gulp'),
   browserSync = require('browser-sync'),
   reload      = browserSync.reload;
 
@@ -8,7 +8,7 @@ var dist = 'uikit/dist/';
 var uikitCSS	= [dist+'css/uikit.blogsfam.css'];
 
 var html	= '../*.html';
-var css = '../css/*.css';
+var css     = '../css/*.css';
 
 gulp.task('default', ['watch']);
 
