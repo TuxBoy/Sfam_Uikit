@@ -7775,6 +7775,7 @@ h2.tm-article-title {
 }
 .tm-inner-top {
   padding-left: 20px;
+  margin-bottom: 68px;
 }
 .tm-article {
   margin: 14px auto;
@@ -7808,6 +7809,55 @@ h2.tm-article-title {
 }
 .tm-article .uk-panel a.uk-button-arrow {
   margin: 20px auto;
+}
+.tm-article .post-thumb {
+  width: 200px;
+  margin: 0 auto;
+}
+.tm-article h2 {
+  text-transform: uppercase;
+}
+.tm-article p.tm-article-content {
+  font-size: 12px;
+  line-height: 1.5;
+}
+.tm-article .tm-article-point {
+  color: #860049;
+  text-decoration: underline;
+}
+.tm-article .tm-article-partage {
+  float: left;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background: #42798d;
+}
+.tm-article .tm-article-partage a {
+  float: left;
+  height: 21px;
+  width: 35px;
+  margin-left: 10px;
+  border-left: 1px solid #ffffff;
+  cursor: pointer;
+}
+.tm-article .tm-article-partage a:first-child {
+  border: none;
+}
+.tm-article .tm-article-partage p {
+  float: left;
+  margin: 0 15px 0 0;
+  padding-top: 3px;
+  font-size: 11px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.tm-article .tm-article-partage .partager-tw {
+  background: url(../img/partage-tw.png) 10px 2px no-repeat;
+}
+.tm-article .tm-article-partage .partager-g {
+  background: url(../img/partage-g.png) 8px 0px no-repeat;
+}
+.tm-article .tm-article-partage .partager-fb {
+  background: url(../img/partage-fb.png) 9px 1px no-repeat;
 }
 .hr {
   margin: 20px 0;

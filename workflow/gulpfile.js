@@ -7,7 +7,7 @@ var gulp      = require('gulp'),
 var dist = 'uikit/dist/';
 var uikitCSS	= [dist+'css/uikit.blogsfam.css'];
 
-var html	= '../*.html';
+var html	= '../**.html';
 var css     = '../css/*.css';
 
 gulp.task('default', ['watch']);

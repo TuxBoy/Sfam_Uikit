@@ -29,6 +29,7 @@
 
 .tm-inner-top {
     padding-left: 20px;
+    margin-bottom: 68px;
 }
 
 .tm-article {
@@ -64,6 +65,50 @@
         a.uk-button-arrow {
             margin: 20px auto;
         }
+    }
+    .post-thumb {
+        width: 200px;
+        margin: 0 auto;
+    }
+    h2 {
+        text-transform: uppercase;
+    }
+    p.tm-article-content {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .tm-article-point {
+        color: @global-primary-background;
+        text-decoration: underline;
+    }
+
+    .tm-article-partage {
+        float: left;
+        margin-top: 30px;
+        padding: 10px 20px;
+        background: #42798d;
+        a {
+            float: left;
+            height: 21px;
+            width: 35px;
+            margin-left: 10px;
+            border-left: 1px solid #ffffff;
+            cursor: pointer;
+            &:first-child {
+                border: none;
+            }
+        }
+        p {
+            float: left;
+            margin: 0 15px 0 0;
+            padding-top: 3px;
+            font-size: 11px;
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+        .partager-tw { background: url(../img/partage-tw.png) 10px 2px no-repeat; }
+        .partager-g  { background: url(../img/partage-g.png) 8px 0px no-repeat; }
+        .partager-fb { background: url(../img/partage-fb.png) 9px 1px no-repeat; }
     }
 }
 .hr {
