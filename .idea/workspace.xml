@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list id="44d5ef22-7d85-4c12-88cb-c5b0281198d1" name="Default" comment="" />
     <list default="true" id="61eafa85-07d4-4298-8bcb-80a79ff9a870" name="[Blog-sfam] Post page" comment="Search form">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workflow/uikit/custom/blogsfam/article.less" afterPath="$PROJECT_DIR$/workflow/uikit/custom/blogsfam/article.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workflow/uikit/custom/blogsfam/custom_b.less" afterPath="$PROJECT_DIR$/workflow/uikit/custom/blogsfam/custom_b.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workflow/gulpfile.js" afterPath="$PROJECT_DIR$/workflow/gulpfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/top-10-smartphones-a-grand-ecran.html" afterPath="$PROJECT_DIR$/top-10-smartphones-a-grand-ecran.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/uikit.blogsfam.css" afterPath="$PROJECT_DIR$/css/uikit.blogsfam.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog-sfam.iws" />
@@ -36,8 +32,8 @@
       <file leaf-file-name="top-10-smartphones-a-grand-ecran.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/top-10-smartphones-a-grand-ecran.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.86633664" vertical-offset="3600" max-vertical-offset="8275">
-              <caret line="179" column="49" selection-start-line="179" selection-start-column="49" selection-end-line="179" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.7425743" vertical-offset="3750" max-vertical-offset="8375">
+              <caret line="180" column="14" selection-start-line="180" selection-start-column="14" selection-end-line="180" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -623,8 +619,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/top-10-smartphones-a-grand-ecran.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86633664" vertical-offset="3600" max-vertical-offset="8275">
-          <caret line="179" column="49" selection-start-line="179" selection-start-column="49" selection-end-line="179" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.7425743" vertical-offset="3750" max-vertical-offset="8375">
+          <caret line="180" column="14" selection-start-line="180" selection-start-column="14" selection-end-line="180" selection-end-column="14" />
           <folding />
         </state>
       </provider>
